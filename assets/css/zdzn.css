@@ -1,0 +1,124 @@
+
+.search-group {
+	width: 100%;
+	background-color: #2f3448
+}
+
+.search-group,.search-layout {
+	height: 224px;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-ms-flex-align: center;
+	align-items: center
+}
+
+.search-layout {
+	width: 1200px;
+	-ms-flex-pack: center;
+	justify-content: center;
+	background-image: url(../images/zndn/search-bg.png)
+}
+
+.search-container {
+	width: 570px;
+	height: 70px
+}
+
+.search-tab {
+	width: 477px;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	-webkit-tap-highlight-color: transparent
+}
+
+.search-tab span {
+	font-size: 14px;
+	border-bottom: 2px solid transparent;
+	color: #dfdfdf;
+	cursor: pointer;
+	height: 22px;
+	padding: 0 12px
+}
+
+.search-tab span:hover {
+	border-bottom: 2px solid #dfdfdf!important;
+	color: #dfdfdf!important
+}
+
+#baidu {
+	border-bottom: 2px solid #fff;
+	color: #fff
+}
+
+input {
+	outline-style: none;
+	border: 0;
+	border-radius: 0;
+	-webkit-appearance: none;
+	-webkit-border-radius: 5px;
+	vertical-align: middle;
+	padding: 0
+}
+
+.search-box {
+	width: 100%;
+	margin-top: 8px
+}
+
+.search-form input[type=search] {
+	width: 477px;
+	height: 38px;
+	font-size: 14px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 4px
+}
+
+.submit {
+	background-image: url(../images/zndn/search.png);
+	width: 85px;
+	height: 40px;
+	color: #fff;
+	font-size: 16px
+}
+
+.submit:hover {
+	cursor: pointer;
+	background-image: url(../images/zndn/search-hover.png)
+}
+
+#dropdown {
+	position: absolute;
+	width: 475px;
+	height: auto;
+	background-color: #fff;
+	border-radius: 5px;
+	border: 1px solid #dcdcdc;
+	display: none
+}
+
+#dropdown ul {
+	display: block;
+	width: 435px;
+	margin-left: 20px;
+	margin-right: 20px
+}
+
+#dropdown ul li {
+	display: inline-block;
+	width: 100%;
+	line-height: 38px;
+	font-size: 14px;
+	border-bottom: 1px dashed #dcdcdc;
+	color: #2f3448
+}
+
+#dropdown ul li:last-child {
+	border-bottom: none
+}
